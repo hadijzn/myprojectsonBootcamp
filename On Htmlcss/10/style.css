@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-color: blue;
+    border-radius: 9px;
+    width: 100%;
+    height: 1950px;
+}
+.parent  div{
+    background-color: salmon;
+    margin: 25px 15px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 60px;
+    border-radius: 9px;
+}
+/* .relative{
+    left: 80px;
+    top: 20px;
+} */
+
+/* .fixed{
+    position: fixed;
+} */

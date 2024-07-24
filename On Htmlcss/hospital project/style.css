@@ -1,0 +1,413 @@
+@font-face {
+    font-family: "Samim-FD";
+    src:url("fonts/Samim-FD.woff") format("woff");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Samim-FD" , sans-serif;
+}
+.container{
+    background: linear-gradient(rgba(13,70,83,0.78),rgba(13,70,83,0.78)),url("img/bg-banner.jpg");;
+    width: 100%;
+    height: 635px;
+}
+/*-navbar/
+ */
+.nav-bar{
+    z-index: 3;
+}
+.nav-bar ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 30px;
+    position: relative;
+    right: 130px;
+    z-index: 2;
+}
+.nav-bar{
+    position: fixed;
+    background: rgba(13,70,83,0.78);
+    width: 100%;
+    height: 70px;
+}
+.logo{
+    position: relative;
+    float: left;
+    width: 110px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+/*header*/
+.header{
+    text-align: center;
+    padding-top: 200px;
+}
+.header h1{
+    font-size: 25px;
+    color: white;
+    padding:15px 0 15px 0;
+}
+.header p{
+    text-decoration: none;
+    color: white;
+    padding:20px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    padding:10px 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    background-color: rgba(12,184,182,0.91);
+}
+ /* service */
+.my-container{
+    display: grid;
+    grid-template-columns: repeat(3,345px);
+    grid-template-rows: repeat(3,233px);
+    z-index: 0;
+}
+.item{
+    position: relative;
+    right: 260px;
+    top: 80px;
+    padding: 5px 10px 10px 10px;
+    font-size: 15px;
+}
+.item i{
+    padding-bottom: 20px;
+    color:rgba(13,70,83,0.78);
+    font-size: 25px;
+}
+.item p{
+    color: #999999;
+}
+.item h4{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.item3 h4{
+    font-size: 25px;
+}
+hr{
+    height: 3px;
+    width: 60px;
+    background: #ffb737;
+    position: relative;
+    border:0;
+}
+
+/* table */
+
+table,td{
+    z-index: 0;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    color: white;
+    border:0 solid #ededed;
+    border-top: 1px solid rgba(216,216,.6);
+    padding: 2px 50px 2px 45px;
+}
+.table{
+    display: grid;
+    grid-template-columns: repeat(3,395px);
+    grid-template-rows: repeat(3,253px);
+    gap: 1px;
+    margin-right: 100px;
+}
+.itemintable{
+    position: relative;
+    background-color: #0cb8b6;
+    padding: 0 10px 10px 10px;
+    text-align: right;
+}
+.itemintable h4{
+    color: white;
+    text-align: right;
+    padding: 30px 0 10px 10px;
+    font-size: 25px;
+}
+.itemintable a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    position: absolute;
+    right: 15px;
+    bottom: 20px;
+    font-size: 12px;
+}
+table p{
+    color: white;
+    font-size: 14px;
+}
+
+/* boxtext */
+
+.boxtext{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    gap: 30px;
+    position: relative;
+    bottom: 30px;
+    margin-right: 320px;
+    z-index: 0;
+
+}
+.iteminboxtext p{
+    color: #999999;
+    width: 85%;
+}
+.iteminboxtext li{
+    list-style-type:none;
+    float: left;
+    font-weight: 900;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    background: #0cb8b6;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: 35px;
+    left: 15px;
+}
+.iteminboxtext h3{
+    padding-bottom: 20px;
+    font-size: 25px;
+}
+
+/* about doctors */
+
+.about{
+    position: relative;
+    z-index: 0;
+}
+.about hr{
+    position: relative;
+}
+.about h1{
+    position: relative;
+    margin-right: 250px;
+    margin-top: 100px;
+}
+.boximage{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    position: relative;
+    right: 110px;
+    margin-top: 80px;
+}
+.image{
+    border: 1px solid #999999;
+    width: 262px;
+    height: 400px;
+}
+.image img{
+    width: 252px;
+    padding: 5px;
+}
+.image li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 10px;
+    position: relative;
+    right: 50px;
+}
+.image h2{
+    padding:10px;
+}
+image p{
+    padding: 10px;
+}
+.about hr{
+    position: relative;
+    margin-right: 240px;
+}
+
+/* comments */
+
+.comments{
+    margin-top: 20px;
+    background-color:#eeeeee;
+    z-index: 0;
+}
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    margin-top: 5px;
+    width: 1200px;
+}
+.box-data{
+    width: 360px;
+    position: relative;
+    right: 130px;
+}
+.box-data-text p{
+    color: #999999;
+}
+.person-info{
+    float: left;
+    width: 50px;
+    position: relative;
+
+}
+.box-data-text{
+    height: 130px;
+    background: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,.18);
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 20px solid #fff;
+    position: relative;
+    bottom: 20px;
+    right: 300px;
+}
+
+/* about us */
+.about{
+    z-index: 0;
+}
+.about-text{
+    background-color: rgb(41,48,46);
+}
+.about-us{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 1000px;
+    position: relative;
+    right: 400px;
+    padding: 40px;
+}
+.about-us h1{
+    font-size: 28px;
+    color: #fff;
+}
+.about-us p{
+    margin-left: 50px;
+    color:#eeeeee;
+    position: relative;
+}
+
+.container-contact{
+    z-index: 0;
+    margin-top: 50px;
+}
+
+.container-contact h1,hr{
+    margin-top: 5px;
+    font-size: 27px;
+}
+.contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1300px;
+    position: relative;
+    right: 100px;
+    gap: 25px;
+}
+.contact h3{
+    font-size: 25px;
+    padding: 10px 0 35px 0;
+}
+.contact-form label input{
+    width: 750px;
+    height: 40px;
+    margin-bottom: 15px;
+    font-size: 17px;
+    padding: 5px;
+}
+.contact-form label textarea{
+    resize: none;
+    margin-bottom: 25px;
+}
+.contact-info p{
+    color: #999999;
+    font-size: 17px;
+    padding-bottom: 23px;
+}
+.contact-form a{
+    background-color: #0cb8b6;
+    color: #fff;
+    padding:8px 16px;
+}
+.contact-icon{
+    margin-top: 55px;
+}
+.contact-icon ul li{
+    list-style-type: none;
+    margin: 25px;
+}
+
+.container-footer{
+    background-color: #325c6a;
+    margin-top: 50px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 1200px;
+    margin-right: 200px;
+}
+.footer h4{
+    color: #fff;
+    font-size: 21px;
+    padding: 30px 0 0 10px;
+}
+.footer-icon ul  li{
+    list-style-type: none;
+    display: inline;
+    color: #fff;
+    background-color: #e74c3c;
+    padding: 15px;
+    margin: 2px;
+    position: relative;
+    top: 20px;
+}
+.footer-link li{
+    list-style-type: none;
+    padding-bottom: 3px;
+}
+.footer-link li{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-about p{
+    width: 400px;
+    color: #fff;
+    font-size: 17px;
+}
+.copy hr{
+    margin: 20px 0 0 20px;
+    width: 100%;
+    height: 1px;
+    background: #999999;
+}
+.copy p{
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+

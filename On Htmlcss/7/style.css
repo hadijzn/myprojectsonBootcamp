@@ -1,0 +1,23 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    grid-template-rows: repeat(2,1fr);
+    border: 1px solid lightblue;
+    background-color: violet;
+}
+.grid-container >div{
+    display: flex;
+    border: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    background-color: salmon;
+}
+@media  screen and (min-width: 0px)and(max-width: 480px){
+    .grid-container{
+    }
+}
+
+
+

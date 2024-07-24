@@ -1,0 +1,252 @@
+body{
+     background-color: rgb(20, 20, 28);
+     color: seashell;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* header */
+.header{
+     height: 150px;
+     width:  100%x;
+}
+h3{
+     margin-left: 25px;
+     color: aquamarine;
+     display: inline-block;
+}
+#products{
+     color: aquamarine;
+}
+.menu{
+     display: flex;
+     float:right;
+     flex-direction: row;
+     justify-content: space-between;
+     list-style-type: none;
+}
+.menu li{
+      margin: 25px;
+}
+
+/* main */
+
+.main{
+     margin-top: 20vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: center;
+}
+.main h1{
+     font-size: 35px;
+     margin-left: 95px;
+}
+.main p{
+     margin-top: 75px;
+     margin-left: 55px;
+     position: absolute;
+     font-weight: 100;
+     color: gray;
+     
+}
+
+/* cards */
+
+.cards{
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     margin-left: 100px;
+     margin-top: 20px;
+}
+
+.items{
+     background-color: rgb(3, 3, 14);
+     height: 140px;
+     width: 260px;
+     margin: 20px;
+     border-radius: 5px;
+     text-align: center;
+}
+.items p{
+     margin-top: 45px;
+}
+.yellow-box{
+     width: 35px;
+     height: 20px;
+     background-color: goldenrod;
+     position: absolute;
+     margin-left: 100px;
+     color: black;
+}
+
+
+
+@media all and (min-width:0px) and (max-width:480px) {
+
+     body{
+          background-color: rgb(20, 20, 28);
+          color: seashell;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     
+     /* header */
+     .header{
+          height: 150px;
+          width:  100%x;
+     }
+     h3{
+          margin-left: 25px;
+          color: aquamarine;
+     }
+     #products{
+          color: aquamarine;
+     }
+     .menu{
+          display: flex;
+          float:right;
+          flex-direction: column;
+          justify-content: space-between;
+          list-style-type: none;
+     }
+     .menu li{
+           margin: 25px;
+     }
+     
+     /* main */
+     
+     .main{
+          margin-top: 30vh;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+     }
+     .main h1{
+          font-size: 35px;
+          margin-left: 85px;
+     }
+     .main p{
+          margin-top: 150px;
+          margin-left: 80px;
+          color: gray;
+          position: absolute;
+          
+     }
+     
+     /* cards */
+     
+     .cards{
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          margin-left: 50px;
+          margin-top: 20px;
+     }
+     
+     .items{
+          background-color: rgb(3, 3, 14);
+          height: 1fr;
+          width: 1fr;
+          margin: 20px;
+          border-radius: 5px;
+          text-align: center;
+     }
+     .items p{
+          margin-top: 45px;
+     }
+     .yellow-box{
+          width: 35px;
+          height: 20px;
+          background-color: goldenrod;
+          position: absolute;
+          margin-left: 100px;
+          color: black;
+     }
+     
+}
+@media screen  and (min-width:481px) and (max-width:779px){
+     body{
+          background-color: rgb(20, 20, 28);
+          color: seashell;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     
+     /* header */
+     .header{
+          height: 150px;
+          width:  100%x;
+     }
+     h3{
+          margin-left: 25px;
+          color: aquamarine;
+          display: inline-block;
+     }
+     #products{
+          color: aquamarine;
+     }
+     .menu{
+          display: flex;
+          float:right;
+          flex-direction: row;
+          justify-content: space-between;
+          list-style-type: none;
+     }
+     .menu li{
+           margin: 25px;
+     }
+     
+     /* main */
+     
+     .main{
+          margin-top: 20vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+     }
+     .main h1{
+          font-size: 35px;
+          margin-left: 95px;
+     }
+     .main p{
+          margin-top: 75px;
+          margin-left: 55px;
+          position: absolute;
+          font-weight: 100;
+          color: gray;
+          
+     }
+     
+     /* cards */
+     
+     .cards{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          margin-left: 100px;
+          margin-top: 20px;
+     }
+     
+     .items{
+          background-color: rgb(3, 3, 14);
+          height: 140px;
+          width: 260px;
+          margin: 20px;
+          border-radius: 5px;
+          text-align: center;
+     }
+     .items p{
+          margin-top: 45px;
+     }
+     .yellow-box{
+          width: 35px;
+          height: 20px;
+          background-color: goldenrod;
+          position: absolute;
+          margin-left: 100px;
+          color: black;
+     }
+     
+     
+}

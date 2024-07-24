@@ -1,0 +1,32 @@
+/* .box1{
+    background-color: salmon;
+    width: 150px;
+    height: 150px;
+    transition-property:background-color,border-radius;
+    transition-duration:0.5s;
+} */
+.box1:hover{
+    background-color: seagreen;
+    border-radius: 15px;
+}
+.box1{
+    background-color: salmon;
+    width: 150px;
+    height: 150px;
+    transition: background-color 0.3s linear 100ms;
+}
+.loading{
+    margin-top: 12px;
+    border: dashed 3px black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation: spin 1s ease-in-out 100ms infinite;
+}
+@keyframes spin {
+    from{
+        transform: scale(1);
+        }
+    to{
+    transform: scale(1.3);}    
+}
