@@ -1,0 +1,24 @@
+.product-card{
+    padding:12px;
+    background-color: lightgray;
+
+}
+#product-list{
+    padding: 12px;
+    cursor: pointer;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+button{
+    margin: 5px;
+}
+header{
+    background-color: snow;
+    border: solid black;
+    width: 75px;
+    text-align: center;
+    height: 25px;
+    border-radius: 15px;
+}

@@ -3,8 +3,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
-<body>
+<body onload="getProducts()">
+    <header>basket
+        <span id="basket-count">0</span>
+    </header>
+    <main>
+        <div id="product-list"></div>
+    </main>
+    <button id="button">click me</button>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
     <script src="./app.js"></script>
 </body>
 </html>
