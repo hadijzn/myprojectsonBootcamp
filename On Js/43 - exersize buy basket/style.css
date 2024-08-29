@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 150px;
+    height: 150px;;
+    margin: 5px;
+}
+button{
+    margin:5px;
+}
+header{
+    width: 65px;
+    height: 25px;
+    border-radius: 15px;
+    border: solid black;
+    margin: 10px;
+    text-align: center;
+}
