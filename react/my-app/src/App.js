@@ -1,22 +1,23 @@
+// import  {FirstComponet}  from "./FirstComponet"
 
-import React, { useState } from "react";  
+// export function App() {
+//     return(
+//         <div>
+//         <p>hellllo</p>
+//         <FirstComponet />
+//         </div>
+//     )
+// 
+import React, { Component } from 'react'
 
-export const InputDisplay = () => {  
-  const [inputValue, setInputValue] = useState("");  
-
-  const handleChange = (event) => {  
-      setInputValue(event.target.value);  
-  };  
-
-  return (  
-      <div>  
-          <input  
-              type="text"  
-              value={inputValue}  
-              onChange={handleChange}    
-              placeholder="متن خود را وارد کنید"  
-          />  
-          <p>شما نوشتید: {inputValue}</p>  
-      </div>  
-  );  
-};  
+export class App extends Component {
+  render() {
+    const text = document.getElementById('input-name')
+    this.setState = this.myText
+    return (
+      <div>
+        <input id='input-name' type='text'>${myText}</input>
+      </div>
+    )
+  }
+}
