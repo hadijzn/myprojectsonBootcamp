@@ -9,7 +9,9 @@ export default function Modal() {
   return (
     <div>
         <button onClick={openModal}>Cart</button>
-        <MyModal isOpen={isOpen} onRequestClose={closeModal}></MyModal>
+        <MyModal isOpen={isOpen} onRequestClose={closeModal}>
+        </MyModal>
+
       </div> 
     )
 }
