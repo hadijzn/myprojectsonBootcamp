@@ -1,4 +1,5 @@
 import React from 'react';
+import tailwindConfig from './tailwind.config';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 // import {FirstComponet} from './FirstComponet';
@@ -9,13 +10,15 @@ import Button from './Button';
 import App from './Button';
 import Users from './monster users/Users';
 import Form from './FormExersize/Form';
+import StepPbar from './step progress bar/StepPbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
     {/* <App/> */}
     {/* <Button >clickME</Button>   */}
     {/* <Users></Users> */}
-    <Form></Form>
+    {/* <Form></Form> */}
+    {<StepPbar></StepPbar>}
 
   </>
 );

@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2px;
+}
+.icon{
+    width: 5.625rem;
+    height: 5.625rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+.icon :hover > i {
+    scale: 1.2;
+    color: #f1f1f1;
+}
+.icon ::before{
+    background-color: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left:-110%;
+    top: 80%;
+    transform: rotate(45deg);
+}
+.icon:hover::before{
+    animation:  0.7s forwards sider;
+}
+@keyframes slide{
+    50%{
+        left: 10%;
+        top: -40%;
+    }
+    100%{
+        left: 15%;
+        top: 10%;
+    }
+}

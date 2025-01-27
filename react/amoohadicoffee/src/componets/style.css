@@ -1,0 +1,14 @@
+*{
+    direction: rtl;
+}
+.background-image{
+    background: url('/public/assets/bg-slate.png') no-repeat;
+    background-position-x: center;
+
+    
+}
+.background-image2{
+    background: url('/public/assets/bg-slate.png') no-repeat ;
+    background-position-x: center;
+    
+}

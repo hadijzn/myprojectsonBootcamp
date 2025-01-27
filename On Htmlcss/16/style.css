@@ -1,0 +1,97 @@
+body{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 15px;
+    font-size: 18px;
+}
+.Item-1{
+    background-color: hsl(31, 77%, 52%);
+    height: 500px;
+    width: 350px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Item-1 h1{
+    margin-right: 120px;
+    /* font-style: bold; */
+}
+.Item-1 button{
+    margin-right: 150px;
+}
+.Item-1 p{
+    margin-left: 50px;
+}
+
+.Item-2{
+    background-color: hsl(184, 100%, 22%);
+    height: 500px;
+    width: 350px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Item-2 h1{
+    margin-right: 140px;
+}
+.Item-2 button{
+    margin-right: 140px;
+}
+.Item-3{
+    background-color: hsl(179, 100%, 13%);
+    height: 500px;
+    width: 350px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.Item-1 button{
+    background-color:hsl(31, 77%, 52%) ;
+    border: solid white 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    height: 45px;
+}
+.Item-2 button{
+    background-color:hsl(184, 100%, 22%) ;
+    border: solid white 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    height: 45px;
+}
+.Item-3 button{
+    background-color:hsl(179, 100%, 13%) ;
+    border: solid white 1px;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    width: 120px;
+    height: 45px;
+}
+.Item-3 h1{
+    margin-right: 120px;
+}
+.Item-3 button{
+    margin-right: 120px;
+}
+img{
+    margin-top: 25px;
+    margin-right: 170px;
+}

@@ -1,0 +1,26 @@
+*{
+    margin-left: 5px;
+}
+.Show-input{
+    background-color: darkgreen;
+    margin: 25px;
+    width: 200px;
+    height: 300px;
+    float: right;
+    color: white;
+    font-size: 25px;
+}
+input{
+    border: 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button{
+    background-color: darkgreen;
+    text-align: center;
+    width: 60px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 45px;
+}

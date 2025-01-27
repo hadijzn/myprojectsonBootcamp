@@ -1,0 +1,41 @@
+.Searchbox{
+    margin-top: 25px;
+    /* border: 2px solid; */
+    border-radius: 4px;
+}
+body{
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    img{
+        margin-top: 25px;
+        width:160px ;
+        height: 100px;
+    }
+}
+
+img{
+    width:120px ;
+    height: 99px;
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,minmax(0,1fr));
+    gap: 8px;
+    margin-left: 150px;
+}
+.CardItem div {  
+    transition-property: all;  
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);  
+}  
+
+.CardItem div:hover {  
+    transform: scale(1.1, 1.1); 
+
+}
+

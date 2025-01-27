@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: vazirmd;
+}
+
+.img-icon {
+    width: 30px;
+    height: 30px;
+}
+
+/* add font */
+@font-face {
+    font-family: vazirmd;
+    src: url(../../Data/Font/Vazirmatn-Medium.ttf);
+}
+/* end -> */
+
+/* ID hover button moon and sun */
+#change-theme {
+    background-color: #888888;
+}
+#change-theme:hover {
+    background-color: #daa520;
+    transition: all 0.3s ease-in-out;
+}
+/* end -> */
+/* img banner */
+.slide-main {
+    width: 1900px;
+    height: 800px;
+    display: none;
+}
+/* end  -> */
+
+/* img banner :active */
+.slideBanner-active {
+    width: 1900px;
+    height: 800px;
+    display: block;
+}
+/* end -> */
