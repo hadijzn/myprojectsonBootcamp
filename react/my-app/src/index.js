@@ -4,13 +4,14 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import {FirstComponet} from './FirstComponet';
 import reportWebVitals from './reportWebVitals';
-import Test from './Test'
-import HooksOnReact from './HooksOnReact';
-import Button from './Button';
-import App from './Button';
-import Users from './monster users/Users';
-import Form from './FormExersize/Form';
-import StepPbar from './step progress bar/StepPbar';
+// import Test from './Test'
+// import HooksOnReact from './HooksOnReact';
+// import Button from './Button';
+// import App from './Button';
+// import Users from './monster users/Users';
+// import Form from './FormExersize/Form';
+import Calculator from './practice/Calculator';
+// import StepPbar from './step progress bar/StepPbar';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
@@ -19,6 +20,8 @@ root.render(
     {/* <Users></Users> */}
     {/* <Form></Form> */}
     {<StepPbar></StepPbar>}
+    <Calculator></Calculator>
+    
 
   </>
 );

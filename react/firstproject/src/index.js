@@ -4,11 +4,12 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import App from './react query exersize/App';
 // import App from '/MonsterUsers/App'
-import Home from './MonsterUsers/Home'
+// import Home from './MonsterUsers/Home'
+import Practice from './new practice/Practice';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home></Home>
+    <Practice></Practice>
   </React.StrictMode>
 );
 
