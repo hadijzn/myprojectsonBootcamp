@@ -1,0 +1,11 @@
+ul{
+    width: 250px;
+    height: 190px;
+    margin-top: 5px;
+}
+#male-list{
+    background-color: blue;
+}
+#female-list{
+    background-color: red;
+}
