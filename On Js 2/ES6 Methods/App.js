@@ -55,7 +55,7 @@ let arr3 = [];
 
 
 
-// let arr3 = arr.concat(arr2)
+//  arr3 = arr.concat(arr2)
 // console.log("arr3 : ", arr3);
 // arr.forEach(function(item){
 //     console.log(item);
@@ -78,8 +78,8 @@ let arr3 = [];
 // })
 
 let UnsortedArr = [66,22,445,99,300,45,]
-let biggest ;
-let smallest ;
+// let biggest ;
+// let smallest ;
 
 
     // biggest = UnsortedArr.map(function (x){
@@ -101,19 +101,32 @@ let smallest ;
     // }
     // FindBiggest()
 
-    let FindBiggest = (array) =>{
-        var max = 0;
-        a = array.length
-        let counter;
+    // let FindBiggest = (array) =>{
+    //     var max = 0;
+    //     a = array.length
+    //     let counter;
 
-        for (counter =0; counter < a;counter++){
-            if(array[counter] > max ){
-                max = array[counter]
-            }
-        }
-        return max
+    //     for (counter =0; counter < a;counter++){
+    //         if(array[counter] > max ){
+    //             max = array[counter]
+    //         }
+    //     }
+    //     return max
 
-    } 
-    var response = FindBiggest(UnsortedArr)
-    console.log(response);
+    // } 
+    // var response = FindBiggest(UnsortedArr)
+    // console.log(response);
     
+var small = null
+let FindSmall = (arr) => {
+   small = arr[0]
+   arr.forEach((item) => {
+    if (small > item){
+        small = item
+    }
+   });
+       return small
+
+}
+var response = FindSmall(UnsortedArr)
+console.log(response);
